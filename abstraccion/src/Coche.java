@@ -30,12 +30,12 @@ public class Coche {
     public String getModelo(){
         return modelo;
     }
-    public void arrancar() throws InterruptedException {
+    public void arrancar() {
+
         System.out.println("Arrancando coche");
-        Thread.sleep(1000);
         System.out.println("Coche arrancado");
     }
-    
+
     public void frenar(){
         System.out.println("Frenando coche");
         System.out.println("Coche frenado");
