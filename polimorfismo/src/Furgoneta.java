@@ -4,12 +4,10 @@ public class Furgoneta extends Coche{
         super(marca, modelo, color, numero_puertas);
     }
 
-    //añadimos sobre la funcion de coches la de intermitentes (la clase de coche anterior son bmw y van sin intermitentes)
-    //esta funcion es única de las furgonetss
-
-
-    public void intermitentes() {
-        System.out.println("Encendiento intermitentes furgoneta");
-
+    //con el metodo override hacemos que aunque se llame igual que la funcion de la clase coche, esta predomine sobre ella
+    @Override
+    public void arrancar() {
+        System.out.println("Arrancando furgoneta");
+        System.out.println("Furgoneta arrancada");
     }
 }

@@ -39,8 +39,8 @@ public class Coche {
     //simula un arranque
     public void arrancar() {
 
-        System.out.println("Arrancando vehículo");
-        System.out.println("Vehículo arrancado");
+        System.out.println("Arrancando coche");
+        System.out.println("Coche arrancado");
     }
 
     //simula una frenada
