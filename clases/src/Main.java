@@ -2,6 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        //creamos una persona y aplicaos los distintos métodos creados
        Persona p = new Persona("Juan", "Perez", 5, "rojo", "verde", 1);
        System.out.println(p.getNombre());
         System.out.println(p.getApellido());

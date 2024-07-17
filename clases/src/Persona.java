@@ -1,4 +1,5 @@
 public class Persona {
+    //estos son los atributos de las personas
     private String nombre;
     private String apellido;
     private int edad;
@@ -6,7 +7,7 @@ public class Persona {
     private String color_ojos;
     private int sexo; //(1 hombre / 0 mujer)
 
-
+    //constructor de una persona, es lo que hace falta para incializarla
     public Persona(String n, String a, int ed, String cp, String co, int s) {
         nombre = n;
         apellido = a;
@@ -16,6 +17,7 @@ public class Persona {
         sexo = s;
 
     }
+    //todas las funciones get devuelven el atributo escrito, y las set lo configuran
     public String getNombre() {
         return nombre;
     }
@@ -52,6 +54,8 @@ public class Persona {
     public void setSexo(int s) {
         sexo = s;
     }
+
+    //estos métodos son las funciones básicas de una persona
     public void respirar(){
         System.out.println("Respirando " );
 

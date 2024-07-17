@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        //construimos el coche y hacemos pruebas con el
         Coche c = new Coche("Citroen", "c3", "dorado" , 5);
         c.arrancar();
         c.frenar();

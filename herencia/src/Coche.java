@@ -45,18 +45,7 @@ public class Coche {
 
     //simula una frenada
     public void frenar(){
-        System.out.println("Frenando coche");
-        System.out.println("Coche frenado");
+        System.out.println("Frenando vehículo");
+        System.out.println("Vehículo frenado");
     }
 }
-
-
-/*
-La abstracción nos permite enfocarnos en lo esencial de un objeto, ignorando los detalles no importantes. Esto se logra
-definiendo clases, que son como plantillas o modelos para crear objetos. Las clases contienen los atributos (características)
-y métodos (comportamiento) de los objetos.
-
-Ejemplo: Pensemos en una clase Coche. La abstracción nos permite definir solo los atributos y métodos relevantes para
-un coche, como marca, modelo, color, velocidad, arrancar, frenar, etc., sin necesidad de entrar en detalles técnicos
-complejos del motor, la transmisión, etc.
- */
